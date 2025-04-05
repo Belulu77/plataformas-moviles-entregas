@@ -1,92 +1,59 @@
-/* Fondo y color de texto */
 body {
-    background-color: #222;
-    color: #ee6;
+  background-color: #222;
+  color: #ee6;
 }
 
-/* Centrar el título principal */
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-/* Fuente sans-serif para los párrafos */
+h1:hover {
+  color: gray;
+}
+
+h2,
+h3 {
+  color: #eee;
+}
+
 p {
-    font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Color para todos los títulos */
-h2, h3 {
-    color: #eee;
-}
-
-/* Borde inferior blanco en elementos <strong> */
 strong {
-    border-bottom: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
-/* Estilo para los elementos con la clase .the-force */
 .the-force {
-    background-color: #444;
-    font-weight: bold;
-    color: #fff;
+  background-color: #444;
 }
 
-/* Colores para las clases .light-side y .dark-side */
-.light-side {
-    color: #66f;
+.ligth-side {
+  color: #66f;
 }
 
 .dark-side {
-    color: #f33;
+  color: #f33;
 }
 
-/* Estilo para el listado con ID og-trilogy */
 #og-trilogy {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
-/* Agregar padding-left al segundo listado de películas */
-ul.movies-list:nth-of-type(2) {
-    padding-left: 20px;
+.movies-list:nth-of-type(2) {
+  padding-left: 100px;
 }
 
-/* Agregar margin-top al último elemento del tercer listado de películas */
-ul.movies-list:nth-of-type(3) li:last-child {
-    margin-top: 10px;
+.movies-list:nth-of-type(3) :last-child {
+  margin-top: 40px;
 }
 
-/* Bonus Tracks */
-
-/* Hacer que todos los títulos estén en mayúscula */
-h1, h2, h3 {
-    text-transform: uppercase;
+h1,
+h2,
+h2 {
+  text-transform: uppercase;
 }
 
-/* Hacer que la primera línea del primer párrafo sea de color #efe */
-p:first-of-type {
-    color: #efe;
-}
-
-/* Cambiar el color del título principal cuando se pasa el puntero por encima */
-h1:hover {
-    color: #ffcc00;
-}
-
-/* Links visitados en gris */
 a:visited {
-    color: grey;
-}
-
-/* Links sin atributo href en cursiva */
-a:not([href]) {
-    font-style: italic;
-}
-
-/* Alternar colores de fondo en los elementos de los listados de películas */
-ul.movies-list li:nth-child(odd) {
-    background-color: #111;
-}
-
-ul.movies-list li:nth-child(even) {
-    background-color: #333;
+  color: gray;
 }
