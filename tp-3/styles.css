@@ -1,107 +1,36 @@
-/* Reset básico para márgenes y padding de todos los elementos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilos globales para el body */
-body {
-    font-size: 18px;
-    background-color: #ffe;
-    color: #210;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilos para el header */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
+h1.titulo {
     text-align: center;
 }
 
-header h1 {
-    font-size: 2rem;
-}
-
-/* Estilos para el artículo principal */
-#contenedor {
-    max-width: 40ch;
-    margin: 2rem auto;
-    padding: 1rem;
-}
-
-/* Estilos para el h1 dentro del artículo */
-h1.titulo {
-    font-size: 2rem;
-    text-align: left;
-}
-
-/* Estilos para los párrafos generales */
 p {
-    font-family: sans-serif;
+    font-family: serif;
 }
 
-/* Estilos para el primer párrafo con id #primer-parrafo */
 #primer-parrafo {
-    font-size: 1.3rem;
     background-color: #CEE;
 }
 
-/* Estilos para el énfasis (em) dentro del primer párrafo */
 #primer-parrafo em {
     color: #933;
 }
 
-/* Estilos para los enlaces dentro de los párrafos con clase .novelas */
-p.novelas a {
-    outline: none;
-    text-decoration: none;
+a {
+    outline: 1px solid #333;
 }
 
-p.novelas a:hover {
-    text-decoration: underline;
-    background-color: #ccd;
-}
-
-/* Estilos para los párrafos con la clase .fuente */
 p.fuente {
-    color: #999 !important;
-    font-size: 0.9rem;
-    opacity: 75%;
-    text-align: center;
+    opacity: 100%;
 }
 
-/* Eliminar sombra de texto en los párrafos sin id */
 p:not([id]) {
     text-shadow: none;
 }
 
-/* Bonus Track: Cambiar color de los párrafos con clase .fuente a negro */
 p.fuente {
     color: #000;
 }
 
-/* Bonus Track: Estilos para el span con clase .complicado */
 .complicado {
     font-weight: bold;
     color: #C62;
-}
-
-/* Estilos para el footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-footer p {
-    font-size: 1rem;
 }
