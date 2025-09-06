@@ -1,4 +1,4 @@
-# plataformas-moviles-entregas
+
 7mo 4ta- 2025
 <h1 align="center">🚀✨ Plataformas moviles ✨🚀</h1>
 
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <strong>Hecho con 💻 por Belu</strong>
+  <strong>Hecho 💻 por Belu</strong>
 </p>
 
 <p align="center">
